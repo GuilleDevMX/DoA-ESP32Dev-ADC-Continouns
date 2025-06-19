@@ -25,3 +25,11 @@ The latest version of the IDF Tool Chain is required.
 | GPIO36    | ADC CH 8 | A0         | 5            | ANALOG OUTPUT |
 | GND       | GROUND   | G          | 1            | GROUND        |
 | 3.3       | 3.3 V    | +          | 1            | POWER SUPPLY  |
+
+# Flash tool for ESP32
+
+You can use a tool to directly load the compiled file and upload it to your ESP32 module. I recommend use [Flash Tool](https://www.espressif.com/en/support/download/other-tools) from the espressif page.
+
+In the project repository, inside the ```.pio\build\esp32dev\``` folder, you will find the binaries and firmware to upload.
+
+
