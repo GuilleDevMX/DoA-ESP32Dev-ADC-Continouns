@@ -30,6 +30,6 @@ The latest version of the IDF Tool Chain is required.
 
 You can use a tool to directly load the compiled file and upload it to your ESP32 module. I recommend use [Flash Tool](https://www.espressif.com/en/support/download/other-tools) from the espressif page.
 
-In the project repository, inside the ```.pio\build\esp32dev\``` folder, you will find the binaries and firmware to upload.
+In the project repository, inside the ```test\firmware.bin``` folder, you will find the binaries and firmware to upload.
 
 
